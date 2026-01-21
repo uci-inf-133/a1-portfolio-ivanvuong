@@ -2,23 +2,128 @@
 <html lang="en">
 
 <!--
-WRITTEN BY: Your name here
-EMAIL: Your email here
+WRITTEN BY: Ivan Vuong
+EMAIL: vuongi2@uci.edu
 -->
 
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Your name here">
-  <meta name="description" content="description of your page">
-   <!-- you would link to an external stylesheet here! -->
+  <meta name="author" content="Ivan Vuong">
+  <meta name="description" content="Portfolio">
+  <link rel="stylesheet" href="style.css">
    <!-- you would also link to Bootstrap here! -->
   <title>title here</title>
 </head>
 <body>
-  <p>
+  <header>
+    <h1>
+      Ivan Vuong Portfolio
+    </h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#work-experience">Work Experience</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about"> 
+      <h2> 
+        About Me
+      </h2>
+      <img src="photo.jpeg" alt="Photo of Ivan Vuong" width="300" height="300"> 
+      <p>
+        Hello! I'm currently a third year at UC Irvine studying Computer Science. I'm looking to build interesting things that innovate and solve problems for other people! I'd love to meet new people, connect, and have a chat! Feel free to reach out!
+      </p>
+      <h3> 
+        Technical Skills: 
+      </h3>
+      <ul>
+        <li> Python </li>
+        <li> C++ </li>
+        <li> SQL </li>
+        <li> HTML </li>
+        <li> CSS </li>
+      </ul>
+    </section>
+
+    <section id="work-experience">
+      <h2> 
+        Work Experience
+      </h2>
+
+      <div class="position">
+        <h3>Tech Fellow - CodePath</h3>
+        <p class="duration">May 2025 - Novevember 2025</p>
+        <ul>
+          <li>Supported CodePath’s TIP102 Technical Interview Prep course by mentoring 200+ students on data structures and
+            algorithms using Python and effective interviewing techniques, strengthening technical problem-solving skills</li>
+          <li>Monitored breakout rooms of 3-5 students, facilitating active technical conversation, identifying gaps in
+            understanding, and providing real-time technical guidance, helping students apply concepts to practice problems</li>
+          <li>Collaborated with 30+ CodePath staff to enhance the student learning experience by supplementing lecture
+            material and refining curriculum accuracy, resulting in a 20% increase in satisfaction scores and course engagement</li>
+        </ul>
+      </div>
+
+      <div class="position">
+        <h3>Software Engineer Contractor - Mercor</h3>
+        <p class="duration">May 2025 - August 2025</p>
+        <ul>
+          <li>Accelerated large-scale language model development at an AI research lab partnered with Mercor by designing
+            reproducible environments and efficiently managing dependencies across 150+ open-source Python repositories</li>
+          <li>Utilized Docker to create containerized environments across Python 3.8–3.13, resolving dependency conflicts and
+            maximizing test coverage, developing 100+ validation scripts to ensure reliable data pipelines for language models</li>
+          <li>Conducted evaluations on 5 large language models using standardized prompts and open-source repositories,
+            benchmarking output correctness, summarization quality, and reasoning consistency to guide model optimization</li>
+        </ul>
+      </div>
+
+      <div class="position">
+        <h3>Software Development Research Intern - NASA SUITS</h3>
+        <p class="duration">December 2023 - May 2024</p>
+        <ul>
+          <li>Enhanced safety measures for a health alert display system on the Local Mission Control Console with JavaScript
+            and FastAPI to retrieve real-time user-specific biometric data updates, lowering emergency response times by 60%</li>
+          <li>Configured update intervals using React and Typescript to ensure timely data refreshes in under one second,
+            supporting seamless earth-space simulation transmissions and maintaining overall high quality system performances</li>
+          <li>Streamlined live footage display using two camera feeds with the HoloLens API, reducing monitoring delays by 25%</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <section id="projects">
+      <h2> 
+        Projects
+      </h2>
+      <div class="project">
+        <h3>Coauthor - AI Powered Research Assistant</h3>
+        <p>Generative model that is designed to continuously learn from its own message history to generate credible academic sources on various topics, with timely responses within 30 seconds. </p>
+        <p><strong>Won Best First Time Hack at SFHacks 2024,</strong> against 144 other participants</p>
+        <p><strong>Technologies:</strong> Python, Selenium, Fireworks, Gemini</p>
+        <a href="https://devpost.com/software/coauthor">View on Devpost</a>
+      </div>
+
+      <div class="project">
+        <h3>GluScale - Child-Friendly Glucose Monitor</h3>
+        <p>Gamified experience for children to track glucose levels, receive recommendations for health monitoring, and accurate user health and blood sugar data.</p>
+        <p><strong>Technologies:</strong> JavaScript, NextJS, Tailwind, React, Supabase</p>
+        <a href="https://devpost.com/software/gluscale">View on Devpost</a>
+      </div>
+
+      <div class="project">
+        <h3>Sift - Cross-Platform File and Message Search</h3>
+        <p>Powerful desktop application that searches through different platforms and pass data into Groq for real-time inference.</p>
+        <p><strong>Technologies:</strong> Python, NextJS, React, Rust, OAuth</p>
+        <a href="https://devpost.com/software/sift">View on Devpost</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- <p>
     <a href="http://validator.w3.org/check?uri=referer">
        W3C validator
     </a>
-  </p>
+  </p> -->
 </body>
 </html>
