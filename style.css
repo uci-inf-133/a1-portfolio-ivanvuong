@@ -44,6 +44,7 @@ nav a {
 #about {
     margin: 0;
     padding: 20px;
+    padding-bottom: 0;
 }
 
 #about h2 {
@@ -81,13 +82,15 @@ nav a {
 .project {
     background-color: peachpuff;
     border-radius: 10px;
-    height: 200px;
+    height: auto;
     width: 850px;
+    max-width: 90%;
     padding: 25px;
     margin: 20px auto;
     text-align: left;
     position: relative; 
-    min-height: 50px; 
+    min-height: 50px;
+    padding-bottom: 15px; 
 }
 
 .project h3 {
@@ -106,8 +109,8 @@ nav a {
     border-radius: 20px;
     padding: 15px; 
     position: absolute; 
-    top: 20px;
-    right: 20px;
+    top: 30px;
+    right: 30px;
 }
 
 #work-experience {
@@ -123,6 +126,7 @@ nav a {
     border-radius: 10px;
     padding: 10px;
     width: 1200px;
+    max-width: 90%;
     margin: 20px auto;
     text-align: center;
     position: relative; 
@@ -139,4 +143,52 @@ nav a {
     text-align: left;  
     line-height: 1.8;  
     margin-top: 15px; 
+}
+
+@media (max-width: 900px) {
+    .profile-pic {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+        width: 500px;
+        height: 500px;
+    }
+    
+    #about p {
+        font-size: 20px;
+        max-width: 600px;
+        margin: 0 auto 20px;
+        margin-bottom: 0;
+    }
+
+    #about h2 {
+        font-size: 40px;
+    }
+    
+    #about h3 {
+        clear: both;
+        font-size: 30px;
+    }
+    
+    #about ul {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .position {
+        max-width: 90%;
+    }
+    
+    .project a {
+        position: static;
+        display: block;
+        margin: 15px auto 0 auto;
+        width: fit-content;
+        height: auto;
+    }
+
+    .project h3 {
+        padding-right: 0;
+        text-align: center;
+    }
 }
