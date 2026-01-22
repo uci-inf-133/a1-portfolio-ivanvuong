@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  background-color: white;
+  margin: 0; 
+  padding: 0;
+}
+
+header {
+    background-color: lightsteelblue; 
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+main {
+    background-color: lightblue;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none; 
+  background-color: black; 
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.profile-pic {
+    float: left;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    object-fit: cover;
+}
+
+#about {
+    margin: 0;
+    padding: 20px;
+}
+
+#about h2 {
+    clear: both;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+#about p {
+    font-size: 24px;
+}
+
+#about h3 {
+    font-size: 30px;
+}
+
+#about ul {
+    font-size: 24px;
+    list-style-position: inside;
+    padding-left: 20px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#projects {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#projects h2 {
+    font-size: 40px;
+}
+
+.project {
+    background-color: peachpuff;
+    border-radius: 10px;
+    height: 200px;
+    width: 850px;
+    padding: 25px;
+    margin: 20px auto;
+    text-align: left;
+    position: relative; 
+    min-height: 50px; 
+}
+
+.project h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.project a {
+    background-color: skyblue;
+    display: block;
+    width: fit-content; 
+    margin: 0 auto; 
+    color: black;
+    text-decoration: none; 
+    border-radius: 20px;
+    padding: 15px; 
+    position: absolute; 
+    top: 20px;
+    right: 20px;
+}
+
+#work-experience {
+    clear: both;
+}
+
+#work-experience h2 {
+    font-size: 40px;
+}
+
+.position {
+    background-color: lightyellow;
+    border-radius: 10px;
+    padding: 10px;
+    width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+    position: relative; 
+    min-height: 50px; 
+}
+
+.position h3 {
+    font-size: 30px;
+}
+
+.position ul {
+    font-size: 16px;
+    padding-left: 40px; 
+    text-align: left;  
+    line-height: 1.8;  
+    margin-top: 15px; 
+}
